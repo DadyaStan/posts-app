@@ -1,0 +1,44 @@
+.layout {
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #001529;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    padding: 50px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+}
